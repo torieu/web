@@ -32,3 +32,7 @@ jobs:
       with:
         name: dist
         path: dist/
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: dist
