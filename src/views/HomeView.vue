@@ -1,28 +1,27 @@
 <template>
-    <div class="introduction">
-        <p >
-            Hola,
-            jmenuji se Viktorie a jsem
+  <div class="introduction">
+      <p >
+          Hola,
+          jmenuji se Viktorie a jsem
+      </p>
+      <h1>
+          <TypeWritereffect></TypeWritereffect>
+      </h1>
 
-        </p>
-        <h1>
-            <TypeWritereffect></TypeWritereffect>
-        </h1>
-    </div>
+  </div>
 </template>
 
 <script>
-import TypeWritereffect from './TypeWritereffect.vue';
+import TypeWritereffect from '../components/TypeWritereffect.vue';
 
 export default {
-    name: 'LandingPage',
+    name: 'HomeView',
     components: {
         TypeWritereffect
     },
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 .introduction {
     text-align: left;
