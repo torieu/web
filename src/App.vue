@@ -4,7 +4,7 @@
 
       <li><RouterLink  style="float:left" to="/">Viktorie.</RouterLink></li>
       <li><RouterLink to="/">domů.</RouterLink></li>
-      <li><RouterLink to="/projects">projekty</RouterLink></li>
+      <li><RouterLink to="/projects">projekty.</RouterLink></li>
       <li><RouterLink to="/about">kdo jsem?</RouterLink></li>
     </ul>
   </nav>
