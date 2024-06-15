@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+#app {
+    font-family: Helvetica, sans-serif;
+    font-family: "Red Hat Display", sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: left;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+.introduction {
+    /* text-align: left; */
+    padding: 80px;
+    /* font-size: 2rem; */
+}
+
+.subtitle{
+    padding-top: 1em;
+    font-size: 2em;
+
+}
+
+p {
+    text-align:left;
+    line-height: 1.5;
+
+}
+
+.w-60{
+    width:60%;
+}
+
+.about {
+    text-align: left;
+    padding: 80px;
+    /* font-size: 2rem; */
+}
+
+
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+h1 {
+    font-size: 5vw;
+    /* Adjusts size based on viewport width */
+    min-font-size: 80px;
+    /* Ensures font size does not fall below 80px */
+}
+
+h2 {
+    font-size: 3.5vw;
+    min-font-size: 40px;
+    font-family: caveat;
+}
+
+h3 {
+    font-size: 2vw;
+    min-font-size: 32px;
+}
+
+
+.w-30 {
+    width:30 %
+}
+
+    /* NAVIGATION -- OLD THO */
+
+
+
+nav {
+text-align: right;
+font-family: 'Helvetica', sans-serif;
+margin-bottom: 20px;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+margin-left: 20px;
+}
+
+nav ul li:first-child {
+margin-left: 0; 
+}
+nav ul li a {
+font-weight: bold;
+color: black;
+text-decoration: none;
+padding: 5px 10px;
+}
+nav ul li a:hover {
+text-decoration: underline;
+}
+
+.centered-text{
+    text-align: center;
+}
+
+a{
+    font-weight:bold;
+    color: black;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+
+
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+.handwritten{
+    font-family: caveat;
+}
+
+.homepage-introduction{
+    height:14em;
+    text-align:right;
+    padding-bottom: 4em;
+}

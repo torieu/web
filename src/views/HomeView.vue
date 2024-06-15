@@ -1,83 +1,51 @@
 <template>
   <div class="introduction">
-      <p >
-          Hola,
-          jmenuji se Viktorie a jsem
-      </p>
-      <h1>
-          <TypeWritereffect></TypeWritereffect>
-      </h1>
+      <div class="container homepage-introduction" >
+      <div class="w-30" style="display:inline-block;text-align:right">
+          <img style="height:14em" :src="pin" alt="red pin" />
+      </div>
+      <div class="" style="display:inline-block; width:50%;padding-left:1em; font-size:4vw;text-align:left">ahoj, jsem viktorie a tohle je moje studentské portfolio.</div>
+      </div>
 
+      <br>
+      <RouterLink to="/about">
+        <div class="container">
+            <img style= "width:20%" :src="yellow_postit" alt="Exaple SVG" />
+            <div class="centered"><h2>kdo jsem?</h2>
+            </div>
+        </div>
+    </RouterLink>
+      <RouterLink to="/matematika">
+        <div class="container">
+            <img style= "width:20%" :src="green_postit" alt="Example SVG" />
+            <div class="centered"><h2>matika</h2>
+            </div>
+        </div>
+    </RouterLink>
   </div>
+  
 </template>
 
 <script>
-import TypeWritereffect from '../components/TypeWritereffect.vue';
+import yellow_postit from '../assets/postit-yellow.svg';
+import green_postit from '../assets/postit-green.svg';
+import pin from '../assets/red-pin.svg';
 
 export default {
     name: 'HomeView',
     components: {
-        TypeWritereffect
+        
     },
+    data() {
+    return {
+      yellow_postit, green_postit, pin
+    };
+  }
 }
+
+
 </script>
 
 <style>
-.introduction {
-    text-align: left;
-    padding: 80px;
-    font-size: 2rem;
 
-}
-
-body {
-    font-family: 'Helvetica', sans-serif;
-}
-
-h1 {
-    font-size: 5vw;
-    /* Adjusts size based on viewport width */
-    min-font-size: 80px;
-    /* Ensures font size does not fall below 80px */
-}
-
-h2 {
-    font-size: 2.5vw;
-    min-font-size: 40px;
-}
-
-h3 {
-    font-size: 2vw;
-    min-font-size: 32px;
-}
-
-/* Ensure font sizes don't become too large on wider screens */
-@media (min-width: 1600px) {
-    h1 {
-        font-size: 80px;
-    }
-
-    h2 {
-        font-size: 40px;
-    }
-
-    h3 {
-        font-size: 32px;
-    }
-}
-
-
-h3 {
-    margin: 40px 0 0;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    display: inline-block;
-    margin: 0 10px;
-}
 </style>

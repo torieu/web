@@ -1,62 +1,42 @@
 <template>
-  <nav>
-    <ul>
+  <div id="app">
+    <!-- Conditionally render the header -->
+    <nav v-if="showHeader">
+      <ul>
+        <li class="handwritten" style="font-size:1.5em">
+          <RouterLink style="float:left" to="/">
+            <img style="width:1.5vw" :src="pin" alt="red pin" />
+            nazpět.
+          </RouterLink>
+        </li>
+      </ul>
+    </nav>
 
-      <li><RouterLink  style="float:left" to="/">Viktorie.</RouterLink></li>
-      <li><RouterLink to="/">domů.</RouterLink></li>
-      <li><RouterLink to="/projects">projekty.</RouterLink></li>
-      <li><RouterLink to="/about">kdo jsem?</RouterLink></li>
-    </ul>
-  </nav>
-  <router-view/>
+    <!-- Render the router view -->
+    <router-view />
+  </div>
 </template>
 
-
-
 <script>
+import { computed } from 'vue';
+import { useRoute } from 'vue-router';
+import pin from './assets/red-pin.svg';
 
+export default {
+  name: 'App',
+  setup() {
+    const route = useRoute();
+    const showHeader = computed(() => route.path !== '/');
 
+    return {
+      showHeader,
+    };
+  },
+  data() {
+    return {
+      pin,
+    };
+  },
+};
 </script>
-<style>
-#app {
-  font-family: Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
 
-<style>
-nav {
- text-align: right;
- font-family: 'Helvetica', sans-serif;
- margin-bottom: 20px;
-}
-
-nav ul {
- list-style-type: none;
- margin: 0;
- padding: 0;
-}
-
-nav ul li {
- display: inline;
- margin-left: 20px;
-}
-
-nav ul li:first-child {
- margin-left: 0; 
-}
-nav ul li a {
- font-weight: bold;
- color: black;
- text-decoration: none;
- padding: 5px 10px;
-}
-nav ul li a:hover {
- text-decoration: underline;
-}
-
-</style>
