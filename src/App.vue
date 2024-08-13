@@ -1,16 +1,16 @@
 <template>
   <div id="app">
     <!-- Conditionally render the header -->
-    <nav v-if="showHeader">
-      <ul>
-        <li class="handwritten" style="font-size:1.5em">
-          <RouterLink style="float:left" to="/">
-            <img style="width:1.5vw" :src="pin" alt="red pin" />
-            nazpět.
-          </RouterLink>
-        </li>
-      </ul>
-    </nav>
+<nav v-if="showHeader" style="display: flex; align-items: center; height: 100%;">
+  <ul style="width: 100%; margin: 0; padding: 0;">
+    <li class="handwritten" style="font-size: 1.5em; list-style-type: none;">
+      <RouterLink style="display: flex; align-items: center;" to="/">
+        <img style="width: 1.5vw; margin-right: 5px;" :src="pin" alt="red pin" />
+        nazpět.
+      </RouterLink>
+    </li>
+  </ul>
+</nav>
 
     <!-- Render the router view -->
     <router-view />

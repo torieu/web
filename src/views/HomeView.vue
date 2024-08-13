@@ -8,6 +8,7 @@
       </div>
 
       <br>
+
       <RouterLink to="/about">
         <div class="container">
             <img style= "width:20%" :src="yellow_postit" alt="Exaple SVG" />
@@ -15,7 +16,16 @@
             </div>
         </div>
     </RouterLink>
-      <RouterLink to="/matematika">
+
+    <RouterLink to="/KISK">
+        <div class="container">
+            <img style= "width:20%" :src="pink_postit" alt="Example SVG" />
+            <div class="centered"><h2>KISK</h2>
+            </div>
+        </div>
+    </RouterLink>
+    
+    <RouterLink to="/matematika">
         <div class="container">
             <img style= "width:20%" :src="green_postit" alt="Example SVG" />
             <div class="centered"><h2>matika</h2>
@@ -29,6 +39,7 @@
 <script>
 import yellow_postit from '../assets/postit-yellow.svg';
 import green_postit from '../assets/postit-green.svg';
+import pink_postit from '../assets/postit-pink.svg';
 import pin from '../assets/red-pin.svg';
 
 export default {
@@ -38,7 +49,7 @@ export default {
     },
     data() {
     return {
-      yellow_postit, green_postit, pin
+      yellow_postit, green_postit, pink_postit,  pin
     };
   }
 }

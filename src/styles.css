@@ -8,7 +8,7 @@
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: left;
+    /* text-align: left; */
     color: #2c3e50;
     margin-top: 60px;
   }
@@ -39,7 +39,7 @@
 }
 
 p {
-    text-align:left;
+    /* text-align:left; */
     line-height: 1.5;
 
 }
@@ -143,3 +143,21 @@ a:hover{
     text-align:right;
     padding-bottom: 4em;
 }
+
+
+/* Default styles for mobile */
+.page {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for desktop viewers */
+  @media screen and (min-width: 1024px) {
+    .page {
+      width: 800px;
+      max-width: 800px;
+    }
+  }
