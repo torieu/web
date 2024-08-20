@@ -51,7 +51,6 @@ p {
 .about {
     text-align: left;
     padding: 80px;
-    /* font-size: 2rem; */
 }
 
 
@@ -60,26 +59,25 @@ body {
 }
 
 h1 {
-    font-size: 5vw;
-    /* Adjusts size based on viewport width */
+    font-size: 5em;
     min-font-size: 80px;
     /* Ensures font size does not fall below 80px */
 }
 
 h2 {
-    font-size: 3.5vw;
+    font-size: 3.5em;
     min-font-size: 40px;
     font-family: caveat;
 }
 
 h3 {
-    font-size: 2vw;
+    font-size: 2em;
     min-font-size: 32px;
 }
 
 
 .w-30 {
-    width:30 %
+    width:30%
 }
 
     /* NAVIGATION -- OLD THO */
@@ -161,3 +159,8 @@ a:hover{
       max-width: 800px;
     }
   }
+
+.post-it-note {
+    width: 15em;
+
+}

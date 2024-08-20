@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div class="container">
-        <img style= "width:20%" :src="yellow_postit" alt="yellow_postit" />
+        <img class="post-it-note" :src="yellow_postit" alt="yellow_postit" />
         <div class="centered"><h2>kdo jsem?</h2>
         </div>
     </div>

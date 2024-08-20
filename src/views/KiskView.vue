@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div class="container">
-            <img style= "width:20%" :src="pink_postit" alt="Example SVG" />
+            <img class="post-it-note" :src="pink_postit" alt="a_pink_post-it_note" />
             <div class="centered">
               <h2>KISK</h2>
             </div>

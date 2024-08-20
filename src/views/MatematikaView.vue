@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div class="container">
-            <img style= "width:20%" :src="green_postit" alt="Example SVG" />
+            <img class="post-it-note" :src="green_postit" alt="Example SVG" />
             <div class="centered">
               <h2>matika</h2>
             </div>

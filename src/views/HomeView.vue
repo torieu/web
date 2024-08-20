@@ -2,7 +2,7 @@
   <div class="introduction">
       <div class="container homepage-introduction" >
       <div class="w-30" style="display:inline-block;text-align:right">
-          <img style="height:14em" :src="pin" alt="red pin" />
+          <img style="width:4em" :src="pin" alt="red pin" />
       </div>
       <div class="" style="display:inline-block; width:50%;padding-left:1em; font-size:4vw;text-align:left">ahoj, jsem viktorie a tohle je moje studentské portfolio.</div>
       </div>
@@ -11,7 +11,7 @@
 
       <RouterLink to="/about">
         <div class="container">
-            <img style= "width:20%" :src="yellow_postit" alt="Exaple SVG" />
+            <img class="post-it-note" :src="yellow_postit" alt="a yellow post-it note" />
             <div class="centered"><h2>kdo jsem?</h2>
             </div>
         </div>
@@ -19,7 +19,7 @@
 
     <RouterLink to="/KISK">
         <div class="container">
-            <img style= "width:20%" :src="pink_postit" alt="Example SVG" />
+            <img class="post-it-note" :src="pink_postit" alt="a pink post-it note" />
             <div class="centered"><h2>KISK</h2>
             </div>
         </div>
@@ -27,7 +27,7 @@
     
     <RouterLink to="/matematika">
         <div class="container">
-            <img style= "width:20%" :src="green_postit" alt="Example SVG" />
+            <img class="post-it-note" :src="green_postit" alt="a green post-it note" />
             <div class="centered"><h2>matika</h2>
             </div>
         </div>
