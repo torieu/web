@@ -1,10 +1,11 @@
 <template>
   <div class="about">
     <div class="container">
-            <img class="post-it-note" :src="green_postit" alt="Example SVG" />
-            <div class="centered">
-              <h2>matika</h2>
+            <div class="container">
+            <img class="post-it-note" :src="green_postit" alt="a green post-it note" />
+            <div class="post_it_div"><h2>matika</h2>
             </div>
+        </div>
     </div>  
   </div>
   <div class="page">

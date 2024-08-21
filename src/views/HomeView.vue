@@ -12,7 +12,7 @@
       <RouterLink to="/about">
         <div class="container">
             <img class="post-it-note" :src="yellow_postit" alt="a yellow post-it note" />
-            <div class="centered"><h2>kdo jsem?</h2>
+            <div class="post_it_div"><h2>kdo jsem?</h2>
             </div>
         </div>
     </RouterLink>
@@ -20,7 +20,7 @@
     <RouterLink to="/KISK">
         <div class="container">
             <img class="post-it-note" :src="pink_postit" alt="a pink post-it note" />
-            <div class="centered"><h2>KISK</h2>
+            <div class="post_it_div"><h2>KISK</h2>
             </div>
         </div>
     </RouterLink>
@@ -28,7 +28,7 @@
     <RouterLink to="/matematika">
         <div class="container">
             <img class="post-it-note" :src="green_postit" alt="a green post-it note" />
-            <div class="centered"><h2>matika</h2>
+            <div class="post_it_div"><h2>matika</h2>
             </div>
         </div>
     </RouterLink>

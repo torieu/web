@@ -2,16 +2,16 @@
   <div class="about">
     <div class="container">
         <img class="post-it-note" :src="yellow_postit" alt="yellow_postit" />
-        <div class="centered"><h2>kdo jsem?</h2>
+        <div class="post_it_div"><h2>kdo jsem?</h2>
         </div>
     </div>
     <div class="subtitle">
       Baví mě zkoušet nové věci a vzdělávat mladé lidi. 
     </div>
     <div>
-    <img style="float: right; margin-left: 0px; width: 300px;" :src="vika_postit" alt="yellow_postit" />
+    <img style="float: right; margin-left: 0px; width: 300px;" :src="vika_postit" alt="photo_of_me" />
 
-    <p class= "w-60">
+    <p class= "w-60"    >
       Bakalářské studium jsem věnovala matematice na Přírodovědecké fakultě Masarkyovy univerzity. Při výběru magisterského oboru jsem si ale uvědomila, že potřebuju změnu. 
       Více než věda, mě baví práce s lidmi a kreativita. 
       <br>

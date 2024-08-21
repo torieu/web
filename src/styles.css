@@ -18,7 +18,7 @@
     text-align: center;
   }
   
-  .centered {
+  .post_it_div {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -66,7 +66,7 @@ h1 {
 
 h2 {
     font-size: 3.5em;
-    min-font-size: 40px;
+    /* min-font-size: 40px; */
     font-family: caveat;
 }
 
@@ -162,5 +162,23 @@ a:hover{
 
 .post-it-note {
     width: 15em;
+}
 
+@media screen and (max-width: 400px) {
+    .post-it-note {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 10vw; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        padding: 40px; /* Adjust the padding to a smaller value */
+    }
+    .w-60{
+        width:100%
+    }
 }
