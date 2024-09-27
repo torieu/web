@@ -2,15 +2,12 @@
   <div class="about">
     <div class="container">
             <img class="post-it-note" :src="pink_postit" alt="a pink post-it note" />
-            <div class="post_it_div"><h2>KISK</h2>
+            <div class="post_it_div"><h2>proč KISK</h2>
             </div>
         </div>
   </div>
   <div class="page centered">
-    <h2>proč KISK</h2>
-    <h2>první semestr</h2>
-    <h3>podzim 2024</h3>
-    <h2></h2>
+    <p></p>
   </div>
 </template>
 

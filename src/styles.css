@@ -68,11 +68,16 @@ h2 {
     font-size: 3.5em;
     /* min-font-size: 40px; */
     font-family: caveat;
+    /* margin: 0em; */
+    /* margin-top: 0.5em; */
 }
 
 h3 {
     font-size: 2em;
     min-font-size: 32px;
+    font-family: caveat;
+    margin-top: -1em;
+    color:darkgrey
 }
 
 
@@ -171,6 +176,9 @@ a:hover{
 
     h2 {
         font-size: 10vw; 
+    }
+    h3 {
+        font-size: 6vw; 
     }
 }
 
