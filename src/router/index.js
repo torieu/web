@@ -5,23 +5,39 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView,
+    meta: { title: 'viktorie blahová' }
   },
   {
     path: '/about',
     name: 'about',
+    meta: { title: 'kdo je viktorie' },
     component: () => import('../views/AboutView.vue')
   },
   {
     path: '/matematika',
     name: 'matematika',
+    meta: { title: 'matematika' },
     component: () => import('../views/MatematikaView.vue')
   },
   {
     path: '/KISK',
     name: 'KISK',
+    meta: { title: 'KISK' },
     component: () => import('../views/KiskView.vue')
-  }
+  },
+  {
+    path: '/proc-KISK',
+    name: 'proc-KISK',
+    meta: { title: 'proč KISK' },
+    component: () => import('../views/Kisk-ProcKisk.vue')
+  },
+  // {
+  //   path: '/prvni-semestr',
+  //   name: 'prvni-semestr',
+  //   meta: { title: 'první semestr' },
+  //   component: () => import('../views/Kisk-PrvniSemestr.vue')
+  // }
 ]
 
 const router = createRouter({
