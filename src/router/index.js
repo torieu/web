@@ -6,7 +6,7 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView,
-    meta: { title: 'viktorie blahová' }
+    // meta: { title: 'viktorie ' }
   },
   {
     path: '/about',
@@ -44,5 +44,10 @@ const router = createRouter({
   history: createWebHashHistory(process.env.BASE_URL),
   routes
 })
+
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title || 'viktoriino portfolio';
+  next();
+});
 
 export default router
