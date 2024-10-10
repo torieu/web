@@ -1,37 +1,49 @@
 <template>
-  <div class="about">
-    <div class="container">
-            <img class="post-it-note" :src="pink_postit" alt="a pink post-it note" />
-            <div class="post_it_div"><h2>KISK</h2>
-            </div>
+  <div class="content-section">
+    <div class="post_it">
+      <img class="post-it-note" :src="pink_postit" alt="a pink post-it note" />
+      <div class="post_it_div">
+        <h2>KISK</h2>
+      </div>
+    </div>
+
+    <div class="centered">
+      <RouterLink to="/proc-KISK" class="kisk-link">
+        <div class="post_it">
+          <img class="post-it-note" :src="small_pink_postit" alt="a pink post-it note" />
+          <div class="post_it_div">
+            <h3>proč KISK</h3>
+          </div>
         </div>
-  </div>
-  <div class="page centered">
-    <RouterLink to="/proc-KISK">
-    <h2>proč KISK</h2>
-    </RouterLink>
-    <RouterLink to="/prvni-semestr">
-    <h2>první semestr</h2>
-    <h3>podzim 2024</h3>
-    </RouterLink>
+      </RouterLink>
+      <RouterLink to="/prvni-semestr" class="kisk-link">
+        <div class="post_it">
+          <img class="post-it-note" :src="small_pink_postit" alt="a pink post-it note" />
+          <div class="post_it_div">
+            <h3>první semestr</h3>
+          </div>
+        </div>
+      </RouterLink>
+
+      <br>
+
+    </div>
   </div>
 </template>
 
 <script>
 import pink_postit from '../assets/postit-pink.svg';
+import small_pink_postit from '../assets/postit-small-pink.svg';
 
 export default {
-    name: 'KiskView',
-    components: {
-        
-    },
-    data() {
+  name: 'KiskView',
+  components: {
+
+  },
+  data() {
     return {
-          pink_postit,
+      pink_postit, small_pink_postit
     };
   }
 }
-
-
-
 </script>

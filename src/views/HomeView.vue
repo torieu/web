@@ -1,6 +1,6 @@
 <template>
   <div class="introduction">
-      <div class="container homepage-introduction" >
+      <div class="post_it homepage-introduction" >
       <div class="w-30" style="display:inline-block;text-align:right">
           <img style="width:4em" :src="pin" alt="red pin" />
       </div>
@@ -9,29 +9,31 @@
 
       <br>
 
-      <RouterLink to="/about">
-        <div class="container">
-            <img class="post-it-note" :src="yellow_postit" alt="a yellow post-it note" />
-            <div class="post_it_div"><h2>kdo jsem?</h2>
-            </div>
-        </div>
-    </RouterLink>
+      <div class="post-it-container">
+        <RouterLink to="/about">
+          <div class="post_it">
+              <img class="post-it-note" :src="yellow_postit" alt="a yellow post-it note" />
+              <div class="post_it_div"><h2>kdo jsem?</h2>
+              </div>
+          </div>
+        </RouterLink>
 
-    <RouterLink to="/KISK">
-        <div class="container">
-            <img class="post-it-note" :src="pink_postit" alt="a pink post-it note" />
-            <div class="post_it_div"><h2>KISK</h2>
-            </div>
-        </div>
-    </RouterLink>
-    
-    <RouterLink to="/matematika">
-        <div class="container">
-            <img class="post-it-note" :src="green_postit" alt="a green post-it note" />
-            <div class="post_it_div"><h2>matika</h2>
-            </div>
-        </div>
-    </RouterLink>
+        <RouterLink to="/KISK">
+          <div class="post_it">
+              <img class="post-it-note" :src="pink_postit" alt="a pink post-it note" />
+              <div class="post_it_div"><h2>KISK</h2>
+              </div>
+          </div>
+        </RouterLink>
+        
+        <RouterLink to="/matematika">
+          <div class="post_it">
+              <img class="post-it-note" :src="green_postit" alt="a green post-it note" />
+              <div class="post_it_div"><h2>matika</h2>
+              </div>
+          </div>
+        </RouterLink>
+      </div>
   </div>
   
 </template>
@@ -57,6 +59,10 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
 
+
+.post_it {
+  flex: 0 1 auto;
+}
 </style>

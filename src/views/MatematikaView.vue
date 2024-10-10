@@ -1,7 +1,7 @@
 <template>
-  <div class="about">
-    <div class="container">
-            <div class="container">
+  <div class="content-section">
+    <div class="post_it">
+            <div class="post_it">
             <img class="post-it-note" :src="green_postit" alt="a green post-it note" />
             <div class="post_it_div"><h2>matika</h2>
             </div>
