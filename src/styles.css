@@ -32,7 +32,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
+  .post-it-link {
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+  }
+  
+  .post-it-link:hover {
+    transform: scale(1.05);
+  }
   
 .introduction {
     /* text-align: left; */
@@ -212,4 +219,13 @@ p a::before {
 
 p a:hover::before {
     transform: rotate(1deg) skew(1deg);
+}
+
+.centered {
+    text-align: center;
+}
+
+.centered .post-it-link {
+    display: inline-block;
+    margin: 0 auto;
 }

@@ -26,12 +26,6 @@ const routes = [
     component: () => import('../views/KiskView.vue')
   },
   {
-    path: '/proc-KISK',
-    name: 'proc-KISK',
-    meta: { title: 'proč KISK' },
-    component: () => import('../views/Kisk-ProcKisk.vue')
-  },
-  {
     path: '/prvni-semestr',
     name: 'prvni-semestr',
     meta: { title: 'první semestr' },

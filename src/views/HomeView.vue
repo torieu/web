@@ -10,7 +10,7 @@
       <br>
 
       <div class="post-it-container">
-        <RouterLink to="/about">
+        <RouterLink to="/about" class="post-it-link">
           <div class="post_it">
               <img class="post-it-note" :src="yellow_postit" alt="a yellow post-it note" />
               <div class="post_it_div"><h2>kdo jsem?</h2>
@@ -18,7 +18,7 @@
           </div>
         </RouterLink>
 
-        <RouterLink to="/KISK">
+        <RouterLink to="/KISK" class="post-it-link">
           <div class="post_it">
               <img class="post-it-note" :src="pink_postit" alt="a pink post-it note" />
               <div class="post_it_div"><h2>KISK</h2>
@@ -26,7 +26,7 @@
           </div>
         </RouterLink>
         
-        <RouterLink to="/matematika">
+        <RouterLink to="/matematika" class="post-it-link">
           <div class="post_it">
               <img class="post-it-note" :src="green_postit" alt="a green post-it note" />
               <div class="post_it_div"><h2>matika</h2>
@@ -60,9 +60,9 @@ export default {
 </script>
 
 <style scoped>
-
-
 .post_it {
   flex: 0 1 auto;
 }
+
+
 </style>

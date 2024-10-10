@@ -7,36 +7,46 @@
       </div>
     </div>
     <div class="subtitle">
-      Baví mě zkoušet nové věci a vzdělávat mladé lidi.
+      Baví mě testovat hranice a provázet lidi novotou.
     </div>
     <div>
       <img style="float: right; margin-left: 0px; width: 300px;" :src="vika_postit" alt="photo_of_me" />
 
       <p class="w-60">
-        Bakalářské studium jsem věnovala matematice na Přírodovědecké fakultě Masarykovy univerzity. Více než rigorózní
-        věda, mě ale baví práce s lidmi a kreativita. Na magistra jsem proto zamířila na KISK.
-        <br>
-        Baví mě tvořit hodnoty i výrobky, proto jsem pracovala jako lektorka v <a
-          href="https://www.fablabuniversity.cz/" target="blank">pojízdné dílně</a> <a href="https://www.fablabbrno.cz/"
-          target="blank">FabLabu Brno</a>, kde se žáci základních škol učí ovládat digitální řemeslo.
-        Přesunula jsem se ke vzdělávání dospělých a ukazuju učitelům, jak zapojit umělou inteligenci ve výuce.
-        <br>
+        Studuju obor Informační studia a knihovnictví na KISKu na Masarykově univerzitě v Brně. Přicházím sem z Přírodovědecké fakulty, kde jsem studovala <RouterLink to="/matematika">matematiku</RouterLink>.
+        Zatímco ve škole jsem kolísala na hranici <strong>teoretické matematiky a informatiky</strong>, mezi přednáškami jsem pořádala <strong>akce pro středoškoláky</strong> a věnovala se svým passion projects. 
+        Chuť hrabat se ve vzorcích mě ale časem postupně opustila a čím dál víc jsem se chtěla věnovat věcem, která mi dávají smysl. 
+        <br><br>
+        Chci tvořit hodnoty, ale mám slabost pro rukodělné výrobky. Pracovala jsem proto jako lektorka v <a href="https://www.fablabuniversity.cz/kamion/" target="blank">pojízdné dílně</a> <a href="https://www.fablabbrno.cz/" target="blank">FabLabu Brno</a>, kde se žáci základních škol učí ovládat digitální řemeslo. Učila jsem žáky pracovat s <strong>3D tiskárnami, laserovou řezačkou a plotrem</strong>. Vytvářeli jsme společně vektorovou grafiku i vlastní 3D modely.
+        V současnosti jsem se posunula ke vzdělávání dospělých a ukazuju učitelům, jak <strong> umělou inteligenci ve výuce</strong>.
+        <br><br>
         Ve volném čase se věnuji brněnské
-        <a href="https://knihovnaveci.mladiinfo.cz/" target="blank">knihovně věcí</a>, projektu sdíleného inventáře, kam
+        <a href="https://knihovnaveci.mladiinfo.cz/" target="blank">knihovně věcí</a>, projektu <strong>sdíleného inventáře</strong>, kam
         si každý může přijít půjčit obvyklé i neobvyklé předměty.
-        <br>
-        Ráda se nechávám unášet zvědavostí, otvírám mezi lidmi cestuji po krajinách cizích kultur,
+        <br><br>
+        Ráda se nechávám unášet <strong>zvědavostí</strong>, otvírám mezi lidmi pochybná témata a cestuji po krajinách cizích kultur. Ve volném čase tancuji párové tance, luštím bizarní sudoku a ujíždím na hobby aktuálního měsíce.
       </p>
 
-    </div>
+      <h3>proč KISK?</h3>
+      <br><br>
+      <strong>(UX) design</strong> byla oblast, která mě vždycky zajímala, ale nikdy nebyl čas se jí věnovat.
+      <br><br>
+      Při zkoumání nabídky KISKu jsem našla <strong>profilace</strong> a zamilovala se prakticky do všech.
+      <br><br>
+      Chtěla jsem mít <strong>volnost</strong> věnovat se věcem, které nejsou škola, ale přesto mě rozvijí.
+      <br><br>
+      Doufám, že najdu <strong>komunitu</strong> podobně smýšlejících lidí.
+      <br><br>
+      Z domovského <strong>Brna</strong> se mi ještě nechce pryč.
 
-
+      </div>
 
 
     <div>
-      <a href="https://calendly.com/viktorie-blahova/" target="blank"><h2 class="centered-text">setkejme se 🗓️</h2></a>
-      
+      <a href="https://calendly.com/viktorie-blahova/" target="blank"><h2 class="centered-text">setkejme se 🗓️</h2></a> 
     </div>
+
+
   </div>
 
 

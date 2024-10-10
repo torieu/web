@@ -8,15 +8,7 @@
     </div>
 
     <div class="centered">
-      <RouterLink to="/proc-KISK" class="kisk-link">
-        <div class="post_it">
-          <img class="post-it-note" :src="small_pink_postit" alt="a pink post-it note" />
-          <div class="post_it_div">
-            <h3>proč KISK</h3>
-          </div>
-        </div>
-      </RouterLink>
-      <RouterLink to="/prvni-semestr" class="kisk-link">
+      <RouterLink to="/prvni-semestr" class="kisk-link post-it-link">
         <div class="post_it">
           <img class="post-it-note" :src="small_pink_postit" alt="a pink post-it note" />
           <div class="post_it_div">
