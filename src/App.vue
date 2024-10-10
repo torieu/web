@@ -4,10 +4,10 @@
 <nav v-if="showHeader" style="display: flex; align-items: center; height: 100%;">
   <ul style="width: 100%; margin: 0; padding: 0;">
     <li class="handwritten" style="font-size: 1.5em; list-style-type: none;">
-      <RouterLink style="display: flex; align-items: center;" to="/">
+      <a @click="goBack" style="display: flex; align-items: center; cursor: pointer;">
         <img style="width: 1.5vw; margin-right: 5px;" :src="pin" alt="red pin" />
         nazpět.
-      </RouterLink>
+      </a>
     </li>
   </ul>
 </nav>
@@ -19,17 +19,23 @@
 
 <script>
 import { computed } from 'vue';
-import { useRoute } from 'vue-router';
+import { useRoute, useRouter } from 'vue-router';
 import pin from './assets/red-pin.svg';
 
 export default {
   name: 'App',
   setup() {
     const route = useRoute();
+    const router = useRouter();
     const showHeader = computed(() => route.path !== '/');
+
+    const goBack = () => {
+      router.go(-1);
+    };
 
     return {
       showHeader,
+      goBack,
     };
   },
   data() {
