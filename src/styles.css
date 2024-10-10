@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 #app {
     font-family: Helvetica, sans-serif;
-    font-family: "Red Hat Display", sans-serif;
+    font-family: "Rubik", sans-serif;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* text-align: left; */
-    color: #2c3e50;
+    color: black;
     margin-top: 60px;
   }
   
@@ -127,15 +128,12 @@ padding: 5px 10px;
 }
 
 a{
-    font-weight:bold;
-    color: black;
      text-decoration: none;
-    /* text-decoration-style: dotted; */
+     color: black;
 }
 
 a:hover{
     text-decoration: none;
-
 }
 
 .handwritten{
@@ -193,7 +191,6 @@ a:hover{
 }
 
 p a {
-    font-weight: bold;
     color: black;
     text-decoration: none;
     position: relative;

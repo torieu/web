@@ -32,8 +32,10 @@
 
 
 
+
     <div>
-      <h2 class="centered-text">napiš mi ✏️</h2>
+      <a href="https://calendly.com/viktorie-blahova/" target="blank"><h2 class="centered-text">setkejme se 🗓️</h2></a>
+      
     </div>
   </div>
 

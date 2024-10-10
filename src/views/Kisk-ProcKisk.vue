@@ -16,7 +16,7 @@
 import small_pink_postit from '../assets/postit-small-pink.svg';
 
 export default {
-  name: 'KiskView',
+  name: 'KiskProcKiskView',
   components: {
 
   },

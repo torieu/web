@@ -30,7 +30,11 @@ export default {
     const showHeader = computed(() => route.path !== '/');
 
     const goBack = () => {
-      router.go(-1);
+      if (window.history.length > 2) {
+        router.go(-1);
+      } else {
+        router.push('/');
+      }
     };
 
     return {

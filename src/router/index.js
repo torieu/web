@@ -31,12 +31,12 @@ const routes = [
     meta: { title: 'proč KISK' },
     component: () => import('../views/Kisk-ProcKisk.vue')
   },
-  // {
-  //   path: '/prvni-semestr',
-  //   name: 'prvni-semestr',
-  //   meta: { title: 'první semestr' },
-  //   component: () => import('../views/Kisk-PrvniSemestr.vue')
-  // }
+  {
+    path: '/prvni-semestr',
+    name: 'prvni-semestr',
+    meta: { title: 'první semestr' },
+    component: () => import('../views/Kisk-PrvniSemestr.vue')
+  }
 ]
 
 const router = createRouter({
