@@ -1,11 +1,10 @@
 <template>
   <div class="content-section">
     <div class="post_it">
-      <img class="post-it-note" :src="yellow_postit" alt="yellow_postit" />
-      <div class="post_it_div">
-        <h2>viktorie<br>blahová!</h2>
-      </div>
-    </div>
+            <img class="post-it-note" :src="yellow_postit" alt="a yellow post-it note" />
+            <div class="post_it_div"><h2>viktorie kdo?</h2>
+            </div>
+        </div>
     <div class="subtitle">
       Baví mě testovat hranice a provázet lidi novotou.
     </div>
@@ -28,6 +27,7 @@
       </p>
 
       <h3>proč KISK?</h3>
+      <p>
       <strong>(UX) design</strong> byla oblast, která mě vždycky zajímala, ale nikdy nebyl čas se jí věnovat.
       <br><br>
       Při zkoumání nabídky KISKu jsem našla <strong>profilace</strong> a zamilovala se prakticky do všech.
@@ -37,8 +37,8 @@
       Doufám, že najdu <strong>komunitu</strong> podobně smýšlejících lidí.
       <br><br>
       Z domovského <strong>Brna</strong> se mi ještě nechce pryč.
-
-      </div>
+      </p>
+    </div>
 
 
     <div>

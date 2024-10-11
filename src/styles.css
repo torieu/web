@@ -76,7 +76,6 @@ body {
 h1 {
     font-size: 5em;
     min-font-size: 80px;
-    /* Ensures font size does not fall below 80px */
 }
 
 h2 {
@@ -180,21 +179,22 @@ a:hover{
         width: 100%;
     }
 
-    h2 {
+    .post_it_div h2 {
         font-size: 10vw; 
     }
-    h3 {
+    .post_it_div h3 {
         font-size: 6vw; 
     }
 }
 
 @media screen and (max-width: 600px) {
-    .about {
-        padding: 40px; /* Adjust the padding to a smaller value */
+    .content-section {
+        padding: 20px; /* Adjust the padding to a smaller value */
     }
     .w-60{
         width:100%
     }
+
 }
 
 p a {
@@ -219,13 +219,4 @@ p a::before {
 
 p a:hover::before {
     transform: rotate(1deg) skew(1deg);
-}
-
-.centered {
-    text-align: center;
-}
-
-.centered .post-it-link {
-    display: inline-block;
-    margin: 0 auto;
 }
