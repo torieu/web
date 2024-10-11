@@ -50,7 +50,7 @@
 .subtitle{
     padding-top: 1em;
     font-size: 2em;
-
+    padding-bottom: 1em;
 }
 
 p {
@@ -79,7 +79,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3.5em;
+    font-size: 3em;
     /* min-font-size: 40px; */
     font-family: caveat;
     /* margin: 0em; */
@@ -178,7 +178,6 @@ a:hover{
     .post-it-note {
         width: 100%;
     }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -213,4 +212,35 @@ p a::before {
 
 p a:hover::before {
     transform: rotate(1deg) skew(1deg);
+}
+
+.image-on-the-right {
+  max-width: 100%;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.text-on-the-left {
+  width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  .image-on-the-right {
+    float: right;
+    width: 30%;
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+
+  .text-on-the-left {
+    width: calc(60%);
+    /* margin-right:3em; */
+    float: left;
+  }
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
