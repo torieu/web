@@ -1,7 +1,7 @@
 <template>
   <div class="introduction">
     <div class="post_it homepage-introduction">
-      <div class="pin-container" style="margin-right: 2em;">
+      <div class="pin-container">
         <img class="pin" :src="pin" alt="red pin" />
       </div>
       <div class="text-container">
@@ -65,36 +65,64 @@ export default {
 .homepage-introduction {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 1em;
+  max-width: 100%;
 }
 
 .pin-container {
-  flex: 0 0 30%;
-  text-align: right;
-  padding-right: 1em;
+  flex-shrink: 0;
+  width: 40vw;
 }
 
 .pin {
   width: 4em;
+  max-width: 100%;
 }
 
 .text-container {
-  flex: 0 0 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-grow: 1;
+  min-width: 0; /* Allows text container to shrink below its content size */
 }
 
 .main-text {
-  font-size: 4vw;
+  font-size: clamp(2rem, 4vw, 3rem);
   text-align: left;
+  /* white-space: nowrap; */
+  
 }
 
 .sub-text {
-  font-size: 2vw;
+  font-size: 1rem;
+  word-wrap: break-word;
   text-align: left;
+  hyphens: auto;
 }
 
-.post_it {
-  flex: 0 1 auto;
+@media (max-width: 675px) {
+  .homepage-introduction {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-container {
+    width: 100%;
+  }
+
+  .main-text,
+  .sub-text {
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+    .post_it_div h2 {
+        font-size: 10vw; 
+    }
+    .post_it_div h3 {
+        font-size: 6vw; 
+    }
 }
 </style>
