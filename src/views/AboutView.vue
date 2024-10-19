@@ -16,21 +16,21 @@
           <p>
             Studuju obor Informační studia a knihovnictví na KISKu na Masarykově univerzitě v Brně. Přicházím sem z Přírodovědecké fakulty, kde jsem studovala <RouterLink to="/matematika">matematiku</RouterLink>.
             Zatímco ve škole jsem kolísala na hranici <strong>teoretické matematiky a informatiky</strong>, mezi přednáškami jsem pořádala <strong>akce pro středoškoláky</strong> a věnovala se svým passion projects. 
-            Chuť hrabat se ve vzorcích mě ale časem postupně opustila a čím dál víc jsem se chtěla věnovat věcem, která mi dávají smysl. 
+            Chuť hrabat se ve vzorcích mě ale časem postupně opustila a čím dál víc jsem se chtěla věnovat věcem, která pro mě dávají smysl. 
             <br><br>
             Chci tvořit hodnoty, ale mám slabost pro rukodělné výrobky. Pracovala jsem proto jako lektorka v <a href="https://www.fablabuniversity.cz/kamion/" target="blank">pojízdné dílně</a> <a href="https://www.fablabbrno.cz/" target="blank">FabLabu Brno</a>, kde se žáci základních škol učí ovládat digitální řemeslo. Učila jsem žáky pracovat s <strong>3D tiskárnami, laserovou řezačkou a plotrem</strong>. Vytvářeli jsme společně vektorovou grafiku i vlastní 3D modely.
-            V současnosti jsem se posunula ke vzdělávání dospělých a ukazuju učitelům, jak <strong> umělou inteligenci ve výuce</strong>.
+            V současnosti jsem se posunula ke vzdělávání dospělých a ukazuju učitelům, jak využívat <strong> umělou inteligenci ve výuce i osobním životě</strong>.
             <br><br>
             Ve volném čase se věnuji brněnské
             <a href="https://knihovnaveci.mladiinfo.cz/" target="blank">knihovně věcí</a>, projektu <strong>sdíleného inventáře</strong>, kam
             si každý může přijít půjčit obvyklé i neobvyklé předměty.
             <br><br>
-            Ráda se nechávám unášet <strong>zvědavostí</strong>, otvírám mezi lidmi pochybná témata a cestuji po krajinách cizích kultur. Ve volném čase tancuji párové tance, luštím bizarní sudoku a ujíždím na hobby aktuálního měsíce.
+            Ráda se nechávám unášet <strong>zvědavostí</strong>, otvírám mezi lidmi pochybná témata a cestuji po krajinách cizích kultur. Ve volném čase tancuju párové tance, luštím bizarní sudoku a ujíždím na hobby aktuálního měsíce.
           </p>
       
       <h3>proč KISK?</h3>
       <p>
-      <strong>(UX) design</strong> byla oblast, která mě vždycky zajímala, ale nikdy nebyl čas se jí věnovat.
+      <strong>(UX) design</strong> byla oblast, která mě vždycky zajímala, ale nikdy nebyl prostor se jí věnovat.
       <br><br>
       Při zkoumání nabídky KISKu jsem našla <strong>profilace</strong> a zamilovala se prakticky do všech.
       <br><br>

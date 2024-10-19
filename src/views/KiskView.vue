@@ -8,14 +8,15 @@
     </div>
 
     <div class="centered">
-      <RouterLink to="/prvni-semestr" class="kisk-link post-it-link">
+      <p>Ještě tu nic není...</p>
+      <!-- <RouterLink to="/prvni-semestr" class="kisk-link post-it-link">
         <div class="post_it">
           <img class="post-it-note" :src="small_pink_postit" alt="a pink post-it note" />
           <div class="post_it_div">
             <h3>první semestr</h3>
           </div>
         </div>
-      </RouterLink>
+      </RouterLink> -->
 
       <br>
 
