@@ -35,7 +35,7 @@
       <p>
       můj workshop na <a href="https://docs.google.com/presentation/d/1AnEbUSFjsC_eHRqgoK8-UEnzfMrJpD2B/edit?usp=sharing&ouid=107811872822471771545&rtpof=true&sd=true" target="blank">Teorii informací</a> (Maskot 2022)<br>
       můj workshop Matematický diktát(Maskot 2021)<br>
-      moje přednáška Využití AI v matematice (<a href="https://brnoc.cz/" target="blank">Brnoc 11</a>, FIHS 2024)
+      moje <a href="https://viktorie.net/FIHS2024.pdf"></a>přednáška Využití AI v matematice (<a href="https://brnoc.cz/" target="blank">Brnoc 11</a>, FIHS 2024)
       </p>
     </div>
    
